@@ -4,169 +4,270 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Daniel Moreira — compositor, pesquisador e professor de música.">
-  <title>Daniel Moreira</title>
+  <title>Daniel Moreira | Composição, pesquisa e tecnologia musical</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#inicio">Daniel Moreira</a>
-  <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
-  <nav class="nav" aria-label="Navegação principal">
-    <a href="#inicio">Início</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#composicoes">Composições</a>
-    <a href="#pesquisa">Pesquisa e publicações</a>
-    <a href="#aulas">Aulas</a>
-    <a href="#aplicativos">Aplicativos</a>
-    <a href="#contato">Contato</a>
-  </nav>
+<header class="masthead">
+  <div class="masthead-main">
+    <a class="site-title" href="#inicio">Daniel Moreira</a>
+    <p class="site-subtitle"
+       data-pt="Composição · Pesquisa · Tecnologia musical"
+       data-en="Composition · Research · Music Technology">Composição · Pesquisa · Tecnologia musical</p>
+  </div>
+
+  <div class="nav-wrap">
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#inicio" data-pt="Início" data-en="Home">Início</a>
+      <a href="#sobre" data-pt="Sobre" data-en="About">Sobre</a>
+      <a href="#composicoes" data-pt="Composições" data-en="Works">Composições</a>
+      <a href="#pesquisa" data-pt="Pesquisa e publicações" data-en="Research & writings">Pesquisa e publicações</a>
+      <a href="#aulas" data-pt="Aulas" data-en="Teaching">Aulas</a>
+      <a href="#aplicativos" data-pt="Aplicativos" data-en="Apps">Aplicativos</a>
+      <a href="#contato" data-pt="Contato" data-en="Contact">Contato</a>
+    </nav>
+    <button id="lang-toggle" class="lang-toggle" aria-label="Switch to English">EN</button>
+  </div>
 </header>
 
 <main>
 <section id="inicio" class="page active">
-  <div class="hero">
+  <div class="editorial-hero">
+    <figure class="portrait-panel">
+      <img src="https://raw.githubusercontent.com/danielspro/website/personal-site-v1/images/daniel-moreira-retrato.jpg"
+           alt="Daniel Moreira"
+           class="main-portrait">
+    </figure>
+
     <div class="hero-copy">
-      <p class="eyebrow">COMPOSITOR · PESQUISADOR · PROFESSOR</p>
-      <h1>Daniel Moreira</h1>
-      <p class="lead serif">Música, pesquisa e tecnologia em diálogo entre criação, análise e audiovisual.</p>
-      <p class="muted light">Atuação em composição musical, pesquisa acadêmica e ensino, com trabalhos voltados à música de concerto, games, audiovisual, teoria e análise musical.</p>
-      <div class="actions">
-        <a class="button primary" href="#composicoes">Conheça meu trabalho</a>
-        <a class="button ghost" href="#sobre">Sobre mim</a>
+      <p class="section-label"
+         data-pt="COMPOSITOR · PESQUISADOR · PROFESSOR"
+         data-en="COMPOSER · RESEARCHER · PROFESSOR">COMPOSITOR · PESQUISADOR · PROFESSOR</p>
+      <h1 data-pt="Música entre criação, pesquisa e tecnologia."
+          data-en="Music between creation, research and technology.">Música entre criação, pesquisa e tecnologia.</h1>
+      <p class="intro"
+         data-pt="Atuo na composição musical, na pesquisa acadêmica e no ensino, com trabalhos voltados à música de concerto, games, audiovisual, teoria e análise musical."
+         data-en="I work across music composition, academic research and teaching, with projects in concert music, games, audiovisual media, music theory and analysis.">Atuo na composição musical, na pesquisa acadêmica e no ensino, com trabalhos voltados à música de concerto, games, audiovisual, teoria e análise musical.</p>
+      <div class="hero-links">
+        <a href="#composicoes" data-pt="Ver composições" data-en="Explore works">Ver composições</a>
+        <a href="#sobre" data-pt="Biografia" data-en="Biography">Biografia</a>
       </div>
     </div>
-    <div class="hero-photo-wrap">
-      <img src="https://raw.githubusercontent.com/danielspro/website/personal-site-v1/images/daniel-moreira-retrato.jpg" alt="Daniel Moreira" class="hero-photo">
-    </div>
   </div>
 
-  <div class="section">
-    <p class="eyebrow">ATUAÇÃO</p>
-    <h2>Entre criação, pesquisa e ensino</h2>
-    <div class="grid four">
-      <article class="card"><span>01</span><h3>Composição</h3><p>Música de concerto, trilhas para games e audiovisual, arranjo e criação musical aplicada.</p><a href="#composicoes">Ver composições →</a></article>
-      <article class="card"><span>02</span><h3>Pesquisa</h3><p>Processos criativos, teoria e análise musical, música e tecnologia e produção acadêmica.</p><a href="#pesquisa">Pesquisa e publicações →</a></article>
-      <article class="card"><span>03</span><h3>Ensino</h3><p>Harmonia, análise, composição, arranjo, teoria musical e música para audiovisual.</p><a href="#aulas">Aulas e materiais →</a></article>
-      <article class="card"><span>04</span><h3>Tecnologia</h3><p>Ferramentas digitais, áudio interativo, produção musical e projetos de software ligados à música.</p><a href="#aplicativos">Ver aplicativos →</a></article>
-    </div>
-  </div>
+  <div class="home-columns content-width">
+    <section class="news-list">
+      <div class="section-heading">
+        <p class="section-label" data-pt="DESTAQUES" data-en="HIGHLIGHTS">DESTAQUES</p>
+        <h2 data-pt="Projetos selecionados" data-en="Selected projects">Projetos selecionados</h2>
+      </div>
 
-  <div class="section divider">
-    <p class="eyebrow">DESTAQUES</p>
-    <h2>Projetos selecionados</h2>
-    <div class="grid three">
-      <article class="card project"><small>GAME</small><h3>Go To Hell</h3><p>Trilha de inspiração jazzística, com forte caráter rítmico e teatral.</p></article>
-      <article class="card project"><small>GAME · ÁUDIO INTERATIVO</small><h3>Astro Out</h3><p>Música, efeitos sonoros e implementação de áudio interativo com FMOD.</p></article>
-      <article class="card project"><small>GAME</small><h3>Quacolé Tennis</h3><p>Temas para diferentes contextos de jogo, incluindo <em>Seabed Court</em> e <em>Boss Court</em>.</p></article>
-    </div>
+      <article class="news-item">
+        <p class="meta">GAME · MUSIC</p>
+        <h3>Go To Hell</h3>
+        <p data-pt="Trilha de inspiração jazzística, com forte caráter rítmico e teatral."
+           data-en="A jazz-inspired score with a strong rhythmic and theatrical character.">Trilha de inspiração jazzística, com forte caráter rítmico e teatral.</p>
+      </article>
+
+      <article class="news-item">
+        <p class="meta">GAME · INTERACTIVE AUDIO</p>
+        <h3>Astro Out</h3>
+        <p data-pt="Música, efeitos sonoros e implementação de áudio interativo com FMOD."
+           data-en="Music, sound effects and interactive audio implementation with FMOD.">Música, efeitos sonoros e implementação de áudio interativo com FMOD.</p>
+      </article>
+
+      <article class="news-item">
+        <p class="meta">GAME · MUSIC</p>
+        <h3>Quacolé Tennis</h3>
+        <p data-pt="Temas para diferentes contextos de jogo, incluindo Seabed Court e Boss Court."
+           data-en="Themes for different gameplay contexts, including Seabed Court and Boss Court.">Temas para diferentes contextos de jogo, incluindo Seabed Court e Boss Court.</p>
+      </article>
+    </section>
+
+    <aside class="areas">
+      <p class="section-label" data-pt="ÁREAS DE ATUAÇÃO" data-en="AREAS OF WORK">ÁREAS DE ATUAÇÃO</p>
+      <a href="#composicoes">
+        <strong data-pt="Composição" data-en="Composition">Composição</strong>
+        <span data-pt="Concerto, games e audiovisual" data-en="Concert music, games and audiovisual">Concerto, games e audiovisual</span>
+      </a>
+      <a href="#pesquisa">
+        <strong data-pt="Pesquisa" data-en="Research">Pesquisa</strong>
+        <span data-pt="Processos criativos, teoria e análise" data-en="Creative processes, theory and analysis">Processos criativos, teoria e análise</span>
+      </a>
+      <a href="#aulas">
+        <strong data-pt="Ensino" data-en="Teaching">Ensino</strong>
+        <span data-pt="Harmonia, análise e composição" data-en="Harmony, analysis and composition">Harmonia, análise e composição</span>
+      </a>
+      <a href="#aplicativos">
+        <strong data-pt="Tecnologia" data-en="Technology">Tecnologia</strong>
+        <span data-pt="Áudio interativo e ferramentas digitais" data-en="Interactive audio and digital tools">Áudio interativo e ferramentas digitais</span>
+      </a>
+    </aside>
   </div>
 </section>
 
 <section id="sobre" class="page">
-  <div class="page-hero split">
-    <div>
-      <p class="eyebrow">SOBRE</p>
-      <h1>Criação, pesquisa e ensino em música.</h1>
-      <p class="lead">Compositor, pesquisador, professor e gestor acadêmico, com atuação nas áreas de criação musical, teoria e análise, música para audiovisual e ensino superior.</p>
-    </div>
-    <img src="https://raw.githubusercontent.com/danielspro/website/personal-site-v1/images/daniel-moreira-retrato.jpg" alt="Retrato profissional de Daniel Moreira" class="about-photo">
+  <div class="page-banner content-width">
+    <p class="section-label" data-pt="SOBRE" data-en="ABOUT">SOBRE</p>
+    <h1 data-pt="Biografia" data-en="Biography">Biografia</h1>
   </div>
 
-  <div class="content section narrow">
-    <h2>Biografia</h2>
-    <p>Daniel Moreira é Doutor e Mestre em Música, com pesquisa voltada aos processos criativos, além de possuir formação em Música para Audiovisual e Bacharelado em Guitarra Elétrica. Sua trajetória articula criação artística, pesquisa acadêmica, ensino e gestão.</p>
-    <p>Atua como professor no ensino superior, especialmente nas áreas de harmonia, análise musical, composição, arranjo e teoria musical. Também desenvolve trabalhos como compositor e sound designer para games e audiovisual, com experiência em produção musical e áudio interativo.</p>
-    <p>Ao longo de sua carreira, participou de festivais, congressos e eventos acadêmicos, publicou trabalhos científicos, integrou comissões científicas e atuou como parecerista de periódicos, projetos de pesquisa e editais culturais.</p>
+  <div class="bio-layout content-width">
+    <img src="https://raw.githubusercontent.com/danielspro/website/personal-site-v1/images/daniel-moreira-retrato.jpg"
+         alt="Retrato profissional de Daniel Moreira"
+         class="bio-photo">
 
-    <h2>Formação</h2>
-    <div class="timeline">
-      <div><strong>Doutorado em Música</strong><p>Processos Criativos — Universidade Federal do Rio de Janeiro (UFRJ)</p></div>
-      <div><strong>Mestrado em Música</strong><p>Processos Criativos — Universidade Federal do Rio de Janeiro (UFRJ)</p></div>
-      <div><strong>Especialização em Música para Audiovisual</strong><p>Formação voltada à composição e produção musical para cinema, games e mídias.</p></div>
-      <div><strong>Bacharelado em Música</strong><p>Guitarra Elétrica — Conservatório Brasileiro de Música – Centro Universitário.</p></div>
+    <div class="prose">
+      <p class="intro"
+         data-pt="Compositor, pesquisador, professor e gestor acadêmico, com atuação nas áreas de criação musical, teoria e análise, música para audiovisual e ensino superior."
+         data-en="Composer, researcher, professor and academic manager working across musical creation, theory and analysis, music for audiovisual media and higher education.">Compositor, pesquisador, professor e gestor acadêmico, com atuação nas áreas de criação musical, teoria e análise, música para audiovisual e ensino superior.</p>
+
+      <p data-pt="Daniel Moreira é Doutor e Mestre em Música, com pesquisa voltada aos processos criativos, além de possuir formação em Música para Audiovisual e Bacharelado em Guitarra Elétrica. Sua trajetória articula criação artística, pesquisa acadêmica, ensino e gestão."
+         data-en="Daniel Moreira holds a PhD and a Master's degree in Music, with research focused on creative processes. He also has postgraduate training in Music for Audiovisual Media and a bachelor's degree in Electric Guitar. His career brings together artistic creation, academic research, teaching and management.">Daniel Moreira é Doutor e Mestre em Música, com pesquisa voltada aos processos criativos, além de possuir formação em Música para Audiovisual e Bacharelado em Guitarra Elétrica. Sua trajetória articula criação artística, pesquisa acadêmica, ensino e gestão.</p>
+
+      <p data-pt="Atua como professor no ensino superior, especialmente nas áreas de harmonia, análise musical, composição, arranjo e teoria musical. Também desenvolve trabalhos como compositor e sound designer para games e audiovisual, com experiência em produção musical e áudio interativo."
+         data-en="He teaches in higher education, especially harmony, music analysis, composition, arranging and music theory. He also works as a composer and sound designer for games and audiovisual media, with experience in music production and interactive audio.">Atua como professor no ensino superior, especialmente nas áreas de harmonia, análise musical, composição, arranjo e teoria musical. Também desenvolve trabalhos como compositor e sound designer para games e audiovisual, com experiência em produção musical e áudio interativo.</p>
+
+      <p data-pt="Ao longo de sua carreira, participou de festivais, congressos e eventos acadêmicos, publicou trabalhos científicos, integrou comissões científicas e atuou como parecerista de periódicos, projetos de pesquisa e editais culturais."
+         data-en="Throughout his career, he has participated in festivals, conferences and academic events, published scholarly work, served on scientific committees and reviewed journals, research projects and cultural grants.">Ao longo de sua carreira, participou de festivais, congressos e eventos acadêmicos, publicou trabalhos científicos, integrou comissões científicas e atuou como parecerista de periódicos, projetos de pesquisa e editais culturais.</p>
     </div>
+  </div>
 
-    <h2>Atuação profissional</h2>
-    <div class="grid three">
-      <article class="card"><h3>Ensino</h3><p>Harmonia, análise, composição e disciplinas ligadas à criação musical em graduação e pós-graduação.</p></article>
-      <article class="card"><h3>Gestão acadêmica</h3><p>Coordenação acadêmica, planejamento curricular e organização de atividades de ensino superior.</p></article>
-      <article class="card"><h3>Criação musical</h3><p>Música de concerto, games e audiovisual, produção musical, sound design e áudio interativo.</p></article>
+  <div class="content-width section-block">
+    <h2 data-pt="Formação" data-en="Education">Formação</h2>
+    <div class="academic-list">
+      <div><strong data-pt="Doutorado em Música" data-en="PhD in Music">Doutorado em Música</strong><span data-pt="Processos Criativos — Universidade Federal do Rio de Janeiro (UFRJ)" data-en="Creative Processes — Federal University of Rio de Janeiro (UFRJ)">Processos Criativos — Universidade Federal do Rio de Janeiro (UFRJ)</span></div>
+      <div><strong data-pt="Mestrado em Música" data-en="Master's in Music">Mestrado em Música</strong><span data-pt="Processos Criativos — Universidade Federal do Rio de Janeiro (UFRJ)" data-en="Creative Processes — Federal University of Rio de Janeiro (UFRJ)">Processos Criativos — Universidade Federal do Rio de Janeiro (UFRJ)</span></div>
+      <div><strong data-pt="Especialização em Música para Audiovisual" data-en="Postgraduate specialization in Music for Audiovisual Media">Especialização em Música para Audiovisual</strong><span data-pt="Composição e produção musical para cinema, games e mídias" data-en="Composition and music production for film, games and media">Composição e produção musical para cinema, games e mídias</span></div>
+      <div><strong data-pt="Bacharelado em Música" data-en="Bachelor of Music">Bacharelado em Música</strong><span data-pt="Guitarra Elétrica — Conservatório Brasileiro de Música – Centro Universitário" data-en="Electric Guitar — Brazilian Conservatory of Music – University Center">Guitarra Elétrica — Conservatório Brasileiro de Música – Centro Universitário</span></div>
     </div>
   </div>
 </section>
 
 <section id="composicoes" class="page">
-  <div class="page-title"><p class="eyebrow">PORTFÓLIO</p><h1>Composições</h1><p class="lead">Música de concerto, games e audiovisual.</p></div>
-  <div class="section narrow">
-    <h2>Games</h2>
-    <div class="grid three">
-      <article class="card"><h3>Go To Hell</h3><p>Trilha de inspiração jazzística, com forte caráter rítmico e teatral.</p><p><b>Atuação:</b> composição musical.</p></article>
-      <article class="card"><h3>Quacolé Tennis</h3><p>Criação dos temas <em>Seabed Court</em> e <em>Boss Court</em>.</p><p><b>Atuação:</b> composição musical.</p></article>
-      <article class="card"><h3>Astro Out</h3><p>Música, efeitos sonoros e implementação de áudio interativo.</p><p><b>Atuação:</b> compositor, sound designer e technical audio designer.</p></article>
-      <article class="card"><h3>Libertas</h3><p>Trilha de aventura épica com mistério, tutti orquestral e fechamento melancólico em loop.</p></article>
-      <article class="card"><h3>Brave Us</h3><p>Música e efeitos sonoros para trailer.</p></article>
-      <article class="card"><h3>Suma</h3><p>Sound design e implementação de áudio com FMOD.</p></article>
+  <div class="page-banner content-width">
+    <p class="section-label" data-pt="PORTFÓLIO" data-en="WORKS">PORTFÓLIO</p>
+    <h1 data-pt="Composições" data-en="Works">Composições</h1>
+    <p class="intro" data-pt="Música de concerto, games e audiovisual." data-en="Concert music, games and audiovisual media.">Música de concerto, games e audiovisual.</p>
+  </div>
+
+  <div class="content-width work-section">
+    <h2 data-pt="Games" data-en="Games">Games</h2>
+    <div class="work-list">
+      <article><div><h3>Go To Hell</h3><p data-pt="Trilha de inspiração jazzística, com forte caráter rítmico e teatral." data-en="A jazz-inspired score with a strong rhythmic and theatrical character.">Trilha de inspiração jazzística, com forte caráter rítmico e teatral.</p></div><span data-pt="Composição" data-en="Composition">Composição</span></article>
+      <article><div><h3>Quacolé Tennis</h3><p data-pt="Criação dos temas Seabed Court e Boss Court." data-en="Music for Seabed Court and Boss Court.">Criação dos temas Seabed Court e Boss Court.</p></div><span data-pt="Composição" data-en="Composition">Composição</span></article>
+      <article><div><h3>Astro Out</h3><p data-pt="Música, efeitos sonoros e implementação de áudio interativo." data-en="Music, sound effects and interactive audio implementation.">Música, efeitos sonoros e implementação de áudio interativo.</p></div><span>FMOD</span></article>
+      <article><div><h3>Libertas</h3><p data-pt="Trilha de aventura épica com transições entre tensão, mistério e material orquestral." data-en="Epic adventure score moving between tension, mystery and orchestral material.">Trilha de aventura épica com transições entre tensão, mistério e material orquestral.</p></div><span data-pt="Composição" data-en="Composition">Composição</span></article>
+      <article><div><h3>Brave Us</h3><p data-pt="Música e efeitos sonoros para trailer." data-en="Music and sound effects for a trailer.">Música e efeitos sonoros para trailer.</p></div><span data-pt="Música + SFX" data-en="Music + SFX">Música + SFX</span></article>
+      <article><div><h3>Suma</h3><p data-pt="Sound design e implementação de áudio com FMOD." data-en="Sound design and audio implementation with FMOD.">Sound design e implementação de áudio com FMOD.</p></div><span>FMOD</span></article>
     </div>
-    <h2>Audiovisual</h2>
-    <div class="grid two">
-      <article class="card"><h3>FastFood</h3><p>Trilha para animação com referências à linguagem musical de cartoons antigos.</p></article>
-      <article class="card"><h3>Flavour Express</h3><p>Trilha instrumental inspirada em diferentes regiões brasileiras e criação de efeitos sonoros.</p></article>
+  </div>
+
+  <div class="content-width work-section">
+    <h2 data-pt="Audiovisual" data-en="Audiovisual">Audiovisual</h2>
+    <div class="work-list">
+      <article><div><h3>FastFood</h3><p data-pt="Trilha para animação com referências à linguagem musical de cartoons antigos." data-en="Score for animation drawing on the musical language of classic cartoons.">Trilha para animação com referências à linguagem musical de cartoons antigos.</p></div></article>
+      <article><div><h3>Flavour Express</h3><p data-pt="Trilha instrumental inspirada em diferentes regiões brasileiras, acompanhada de efeitos sonoros." data-en="Instrumental score inspired by different Brazilian regions, accompanied by sound effects.">Trilha instrumental inspirada em diferentes regiões brasileiras, acompanhada de efeitos sonoros.</p></div></article>
     </div>
-    <h2>Música de concerto</h2>
-    <p class="muted">Esta seção receberá o catálogo de obras, instrumentação, duração, gravações e notas de programa.</p>
+  </div>
+
+  <div class="content-width work-section">
+    <h2 data-pt="Música de concerto" data-en="Concert music">Música de concerto</h2>
+    <p class="intro small" data-pt="Esta seção receberá o catálogo de obras, instrumentação, duração, estreias, partituras e gravações." data-en="This section will include a catalogue of works, instrumentation, duration, premieres, scores and recordings.">Esta seção receberá o catálogo de obras, instrumentação, duração, estreias, partituras e gravações.</p>
   </div>
 </section>
 
 <section id="pesquisa" class="page">
-  <div class="page-title"><p class="eyebrow">ACADEMIA</p><h1>Pesquisa e publicações</h1><p class="lead">Processos criativos, teoria e análise musical, música e tecnologia.</p></div>
-  <div class="section narrow">
-    <div class="grid three">
-      <article class="card"><h3>Processos criativos</h3><p>Procedimentos composicionais, modelos de criação e relações entre análise e prática artística.</p></article>
-      <article class="card"><h3>Teoria e análise</h3><p>Harmonia, forma, teoria pós-tonal, textura e organização musical.</p></article>
-      <article class="card"><h3>Música e tecnologia</h3><p>Criação musical, produção, sistemas interativos, audiovisual e ferramentas digitais.</p></article>
+  <div class="page-banner content-width">
+    <p class="section-label" data-pt="PESQUISA" data-en="RESEARCH">PESQUISA</p>
+    <h1 data-pt="Pesquisa e publicações" data-en="Research & writings">Pesquisa e publicações</h1>
+    <p class="intro" data-pt="Processos criativos, teoria e análise musical, música e tecnologia." data-en="Creative processes, music theory and analysis, music and technology.">Processos criativos, teoria e análise musical, música e tecnologia.</p>
+  </div>
+
+  <div class="content-width two-col">
+    <div>
+      <h2 data-pt="Linhas de interesse" data-en="Research interests">Linhas de interesse</h2>
+      <ul class="plain-list">
+        <li data-pt="Processos criativos e composição" data-en="Creative processes and composition">Processos criativos e composição</li>
+        <li data-pt="Teoria e análise musical" data-en="Music theory and analysis">Teoria e análise musical</li>
+        <li data-pt="Harmonia e forma" data-en="Harmony and form">Harmonia e forma</li>
+        <li data-pt="Música e tecnologia" data-en="Music and technology">Música e tecnologia</li>
+      </ul>
     </div>
-    <h2>Publicações</h2>
-    <p>Esta página será preenchida com artigos, capítulos, anais, resumos expandidos e demais produções acadêmicas.</p>
-    <h2>Atuação editorial e pareceres</h2>
-    <ul class="clean-list"><li>Editor da Revista MusMat.</li><li>Parecerista de periódicos científicos.</li><li>Parecerista de projetos de iniciação científica.</li><li>Parecerista de editais culturais e projetos artísticos.</li></ul>
+    <div>
+      <h2 data-pt="Atuação acadêmica" data-en="Academic work">Atuação acadêmica</h2>
+      <ul class="plain-list">
+        <li data-pt="Editor da Revista MusMat" data-en="Editor of MusMat Journal">Editor da Revista MusMat</li>
+        <li data-pt="Parecerista de periódicos científicos" data-en="Reviewer for scholarly journals">Parecerista de periódicos científicos</li>
+        <li data-pt="Parecerista de projetos de pesquisa" data-en="Reviewer for research projects">Parecerista de projetos de pesquisa</li>
+        <li data-pt="Parecerista de editais culturais" data-en="Reviewer for cultural funding calls">Parecerista de editais culturais</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content-width section-block">
+    <h2 data-pt="Publicações" data-en="Publications">Publicações</h2>
+    <p class="intro small" data-pt="Em breve: artigos, capítulos, anais, resumos expandidos, DOI e arquivos disponíveis para leitura." data-en="Coming soon: articles, book chapters, proceedings, extended abstracts, DOI links and available full texts.">Em breve: artigos, capítulos, anais, resumos expandidos, DOI e arquivos disponíveis para leitura.</p>
   </div>
 </section>
 
 <section id="aulas" class="page">
-  <div class="page-title"><p class="eyebrow">ENSINO</p><h1>Aulas</h1><p class="lead">Teoria, harmonia, análise, composição e música aplicada.</p></div>
-  <div class="section narrow">
-    <div class="grid three">
-      <article class="card"><h3>Harmonia</h3><p>Funções harmônicas, teoria por graus, condução de vozes, cromatismo e análise harmônica.</p></article>
-      <article class="card"><h3>Análise musical</h3><p>Forma, motivo, textura, repertório tonal e pós-tonal e procedimentos analíticos.</p></article>
-      <article class="card"><h3>Composição e arranjo</h3><p>Processos criativos, instrumentação, desenvolvimento de ideias e escrita para diferentes formações.</p></article>
-    </div>
-    <h2>Vídeos e cursos</h2>
-    <p>Espaço para aulas do YouTube, materiais do projeto Maestria em Harmonia e conteúdos do curso Maestria Essencial.</p>
+  <div class="page-banner content-width">
+    <p class="section-label" data-pt="ENSINO" data-en="TEACHING">ENSINO</p>
+    <h1 data-pt="Aulas" data-en="Teaching">Aulas</h1>
+    <p class="intro" data-pt="Conteúdos de teoria, harmonia, análise, composição e música aplicada." data-en="Teaching materials in theory, harmony, analysis, composition and applied music.">Conteúdos de teoria, harmonia, análise, composição e música aplicada.</p>
+  </div>
+
+  <div class="content-width work-list">
+    <article><div><h3 data-pt="Harmonia" data-en="Harmony">Harmonia</h3><p data-pt="Funções harmônicas, teoria por graus, condução de vozes, cromatismo e análise." data-en="Harmonic functions, scale-degree theory, voice leading, chromaticism and analysis.">Funções harmônicas, teoria por graus, condução de vozes, cromatismo e análise.</p></div></article>
+    <article><div><h3 data-pt="Análise musical" data-en="Music analysis">Análise musical</h3><p data-pt="Forma, motivo, textura, repertório tonal e pós-tonal e procedimentos analíticos." data-en="Form, motive, texture, tonal and post-tonal repertoire and analytical procedures.">Forma, motivo, textura, repertório tonal e pós-tonal e procedimentos analíticos.</p></div></article>
+    <article><div><h3 data-pt="Composição e arranjo" data-en="Composition and arranging">Composição e arranjo</h3><p data-pt="Processos criativos, instrumentação, desenvolvimento de ideias e escrita para diferentes formações." data-en="Creative processes, instrumentation, development of musical ideas and writing for different ensembles.">Processos criativos, instrumentação, desenvolvimento de ideias e escrita para diferentes formações.</p></div></article>
+  </div>
+
+  <div class="content-width section-block">
+    <h2 data-pt="Vídeos e cursos" data-en="Videos and courses">Vídeos e cursos</h2>
+    <p class="intro small" data-pt="Espaço para aulas do YouTube, conteúdos do Maestria em Harmonia e materiais do curso Maestria Essencial." data-en="A space for YouTube lessons, Maestria em Harmonia content and materials from the Maestria Essencial course.">Espaço para aulas do YouTube, conteúdos do Maestria em Harmonia e materiais do curso Maestria Essencial.</p>
   </div>
 </section>
 
 <section id="aplicativos" class="page">
-  <div class="page-title"><p class="eyebrow">TECNOLOGIA</p><h1>Aplicativos</h1><p class="lead">Ferramentas digitais e projetos de software relacionados à música.</p></div>
-  <div class="section narrow">
-    <div class="grid two">
-      <article class="card"><h3>Processamento MIDI</h3><p>Projetos experimentais relacionados à manipulação, organização e processamento de dados MIDI.</p><a href="https://github.com/danielspro" target="_blank" rel="noopener">Ver projetos no GitHub →</a></article>
-      <article class="card"><h3>Novas ferramentas</h3><p>Espaço para aplicativos web, protótipos e ferramentas musicais desenvolvidas ao longo do tempo.</p></article>
-    </div>
+  <div class="page-banner content-width">
+    <p class="section-label" data-pt="TECNOLOGIA" data-en="TECHNOLOGY">TECNOLOGIA</p>
+    <h1 data-pt="Aplicativos" data-en="Apps">Aplicativos</h1>
+    <p class="intro" data-pt="Ferramentas digitais e projetos de software relacionados à música." data-en="Digital tools and software projects related to music.">Ferramentas digitais e projetos de software relacionados à música.</p>
+  </div>
+
+  <div class="content-width work-list">
+    <article>
+      <div><h3 data-pt="Processamento MIDI" data-en="MIDI processing">Processamento MIDI</h3><p data-pt="Projetos experimentais relacionados à manipulação, organização e processamento de dados MIDI." data-en="Experimental projects for manipulating, organizing and processing MIDI data.">Projetos experimentais relacionados à manipulação, organização e processamento de dados MIDI.</p></div>
+      <a href="https://github.com/danielspro" target="_blank" rel="noopener" data-pt="Ver GitHub" data-en="View GitHub">Ver GitHub</a>
+    </article>
+    <article><div><h3 data-pt="Novas ferramentas" data-en="New tools">Novas ferramentas</h3><p data-pt="Espaço para aplicativos web, protótipos e ferramentas musicais em desenvolvimento." data-en="A space for web apps, prototypes and music tools in development.">Espaço para aplicativos web, protótipos e ferramentas musicais em desenvolvimento.</p></div></article>
   </div>
 </section>
 
 <section id="contato" class="page">
-  <div class="page-title"><p class="eyebrow">CONTATO</p><h1>Vamos conversar.</h1><p class="lead">Composição, colaboração artística, pesquisa, ensino, palestras e consultoria.</p></div>
-  <div class="section narrow">
-    <div class="grid two">
-      <article class="card"><h3>E-mail</h3><p>Contato profissional</p><a href="mailto:danielspro@hotmail.com">danielspro@hotmail.com →</a></article>
-      <article class="card"><h3>GitHub</h3><p>Projetos de software e ferramentas digitais.</p><a href="https://github.com/danielspro" target="_blank" rel="noopener">github.com/danielspro →</a></article>
-    </div>
+  <div class="page-banner content-width">
+    <p class="section-label" data-pt="CONTATO" data-en="CONTACT">CONTATO</p>
+    <h1 data-pt="Entre em contato" data-en="Get in touch">Entre em contato</h1>
+    <p class="intro" data-pt="Para composição, colaboração artística, pesquisa, ensino, palestras e consultoria." data-en="For composition, artistic collaboration, research, teaching, lectures and consulting.">Para composição, colaboração artística, pesquisa, ensino, palestras e consultoria.</p>
+  </div>
+
+  <div class="content-width contact-list">
+    <a href="mailto:danielspro@hotmail.com"><span>E-mail</span><strong>danielspro@hotmail.com</strong></a>
+    <a href="https://github.com/danielspro" target="_blank" rel="noopener"><span>GitHub</span><strong>github.com/danielspro</strong></a>
   </div>
 </section>
 </main>
 
-<footer><span>© 2026 Daniel Moreira</span><span>Compositor · Pesquisador · Professor</span></footer>
+<footer>
+  <div class="content-width footer-inner">
+    <span>© 2026 Daniel Moreira</span>
+    <span data-pt="Compositor · Pesquisador · Professor" data-en="Composer · Researcher · Professor">Compositor · Pesquisador · Professor</span>
+  </div>
+</footer>
+
 <script src="app.js"></script>
 </body>
 </html>
